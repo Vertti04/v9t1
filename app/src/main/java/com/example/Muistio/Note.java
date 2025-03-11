@@ -5,12 +5,12 @@ import java.util.Locale;
 public class Note {
 
     private static int idCount = 1;
-    private int Id;
+    private int id;
     private String title;
     private String content;
     private String timeAndDate;
     public Note(String title, String content) {
-        this.Id = idCount++;
+        this.id = idCount++;
         this.title = title;
         this.content = content;
         this.timeAndDate = getCurrentTimeAndDate();
@@ -35,7 +35,7 @@ public class Note {
     }
 
     public int getId(){
-        return Id;
+        return id;
     }
 
 
