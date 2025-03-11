@@ -34,7 +34,7 @@ public class NoteAdapter extends RecyclerView.Adapter <NoteViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull NoteViewHolder holder, int position) {
         holder.id.setText((String.valueOf(notes.get(position).getId())));
-        holder.name.setText(notes.get(position).getTitle());
+        holder.title.setText(notes.get(position).getTitle());
         holder.content.setText(notes.get(position).getContent());
         holder.timeAndDate.setText(notes.get(position).getTimeAndDate());
     }
