@@ -16,10 +16,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NoteTitleText" />
+        app:layout_constraintTop_toBottomOf="@+id/TitleEdit" />
 
     <EditText
-        android:id="@+id/NoteTitleText"
+        android:id="@+id/TitleEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -38,5 +38,5 @@
         app:layout_constraintBottom_toTopOf="@+id/AddNoteButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NoteTitleText" />
+        app:layout_constraintTop_toBottomOf="@+id/TitleEdit" />
 </androidx.constraintlayout.widget.ConstraintLayout>

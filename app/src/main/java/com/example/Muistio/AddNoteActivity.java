@@ -23,7 +23,7 @@ public class AddNoteActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_add_note);
 
-        TitleEdit = findViewById(R.id.NoteTitleText);
+        TitleEdit = findViewById(R.id.TitleEdit);
         ContentEdit = findViewById(R.id.ContentEdit);
 
         NoteStorage = com.example.Muistio.NoteStorage.getInstance(); ;
