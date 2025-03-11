@@ -1,7 +1,6 @@
 package com.example.Muistio;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -12,10 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
 
 public class AddNoteActivity extends AppCompatActivity {
 
@@ -28,7 +23,7 @@ public class AddNoteActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_add_note);
 
-        TitleEdit = findViewById(R.id.TitleEdit);
+        TitleEdit = findViewById(R.id.NoteTitleText);
         ContentEdit = findViewById(R.id.ContentEdit);
 
         NoteStorage = com.example.Muistio.NoteStorage.getInstance(); ;
