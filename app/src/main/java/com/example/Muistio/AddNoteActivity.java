@@ -40,7 +40,9 @@ public class AddNoteActivity extends AppCompatActivity {
         String content = ContentEdit.getText().toString();
 
         NoteStorage.addNote(title, content);
-        finish();
+
 
     }
-}
+    public void closeTitle(View view) {
+        finish();
+}}
