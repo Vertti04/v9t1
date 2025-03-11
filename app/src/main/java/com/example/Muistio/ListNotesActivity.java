@@ -1,6 +1,7 @@
 package com.example.Muistio;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,6 +38,10 @@ public class ListNotesActivity extends AppCompatActivity{
             return insets;
         });
 
+    }
+
+    public void closeList(View view) {
+        finish();
     }
 
 }
