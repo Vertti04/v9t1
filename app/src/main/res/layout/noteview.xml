@@ -8,25 +8,25 @@
 
 
     <TextView
-        android:id="@+id/id"
+        android:id="@+id/NoteIdText"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/NoteTitleText"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/content"
+        android:id="@+id/NoteContentText"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/timeAndDate"
+        android:id="@+id/NoteTimeAndDateText"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="TextView" />
