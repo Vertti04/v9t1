@@ -26,7 +26,6 @@ public class ListNotesActivity extends AppCompatActivity{
         setContentView(R.layout.activity_list_notes);
 
         ArrayList<Note> notes = NoteStorage.getInstance().getNotes();
-        recyclerView = findViewById(R.id.ListNotesrv);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new NoteAdapter(getApplicationContext(), NoteStorage.getInstance().getNotes()));
 
