@@ -25,9 +25,11 @@ public class ListNotesActivity extends AppCompatActivity{
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_list_notes);
 
+        recyclerView = findViewById(R.id.ListNotesRV);
+
         ArrayList<Note> notes = NoteStorage.getInstance().getNotes();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(new NoteAdapter(getApplicationContext(), NoteStorage.getInstance().getNotes()));
+        recyclerView.setAdapter(new NoteAdapter(getApplicationContext(), notes));
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

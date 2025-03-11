@@ -8,6 +8,11 @@
     tools:context=".ListNotesActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ListNotesRV"
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,6 +39,7 @@ public class NoteAdapter extends RecyclerView.Adapter <NoteViewHolder>{
         holder.timeAndDate.setText(notes.get(position).getTimeAndDate());
     }
 
+
     @Override
     public int getItemCount() {
         return notes.size();
